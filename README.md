@@ -36,6 +36,19 @@ plus one small addition. Over Bluetooth it needs the build that came with
 either of those apps: they walk you through it (and offer **Update FM-1** if the FM-1 has an older Big
 Screen). This app shows **"Connected, but no screen"** when the FM-1 needs it.
 
+## Bluetooth needs firmware with Bluetooth
+
+This app works **only when the FM-1's firmware has Bluetooth MIDI**.
+
+| Firmware | Big screen over |
+|---|---|
+| **FM-1 Big Screen** (M-VAVE's Official Open firmware + the screen) | **USB or Bluetooth** |
+| **[ChoralRoot + Big Screen](https://github.com/pfkellogg/ChoralRootFM1)** | **USB only**: ChoralRoot has no Bluetooth MIDI |
+
+On firmware without Bluetooth MIDI, such as ChoralRoot, this app can't find the FM-1 at all. Use
+[FM-1 Mirror + Spyglass](https://github.com/pfkellogg/fm1-mirror-spyglass-android) (Android) or
+[FM-1 Mirror](https://github.com/pfkellogg/fm1-mirror) (Mac, Windows, Linux) with a USB cable instead.
+
 ## Connecting
 
 1. On the FM-1, hold **HOME** and press **GLO**: its **BLUETOOTH** page. Turn **K1 BLUETOOTH** to
