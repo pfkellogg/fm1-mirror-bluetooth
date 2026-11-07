@@ -46,8 +46,9 @@ This app works **only when the FM-1's firmware has Bluetooth MIDI**.
 | **[ChoralRoot + Big Screen](https://github.com/pfkellogg/ChoralRootFM1)** | **USB only**: ChoralRoot has no Bluetooth MIDI |
 | **[JIANT FM + Big Screen](https://github.com/pfkellogg/JIANT)** | **USB only**: JIANT has no Bluetooth MIDI |
 | **[Skiff + Big Screen](https://github.com/pfkellogg/skiff)** | **USB only**: Skiff has no Bluetooth MIDI |
+| **SLOOP + Big Screen** (not released yet) | **USB only**: SLOOP has no Bluetooth MIDI |
 
-On firmware without Bluetooth MIDI, such as ChoralRoot, JIANT or Skiff, this app can't find the FM-1 at all. Use
+On firmware without Bluetooth MIDI, such as ChoralRoot, JIANT, Skiff or SLOOP, this app can't find the FM-1 at all. Use
 [FM-1 Mirror + Spyglass](https://github.com/pfkellogg/fm1-mirror-spyglass-android) (Android) or
 [FM-1 Mirror](https://github.com/pfkellogg/fm1-mirror) (Mac, Windows, Linux) with a USB cable instead.
 
