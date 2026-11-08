@@ -44,12 +44,13 @@ This app works **only when the FM-1's firmware has Bluetooth MIDI**.
 |---|---|
 | **FM-1 Big Screen** (M-VAVE's Official Open firmware + the screen) | **USB or Bluetooth** |
 | **[ChoralRoot + Big Screen](https://github.com/pfkellogg/ChoralRootFM1)** | **USB only**: ChoralRoot has no Bluetooth MIDI |
-| **[JIANT FM + Big Screen](https://github.com/pfkellogg/JIANT)** | **USB only**: JIANT has no Bluetooth MIDI |
+| **[JIANT FM + Big Screen](https://github.com/pfkellogg/JIANT)** | **USB only**: JIANT has Bluetooth MIDI (V10.13 and later, with its **JIANT FM-1** app), but this build sends its screen over USB only |
 | **[Skiff + Big Screen](https://github.com/pfkellogg/skiff)** | **USB only**: Skiff has no Bluetooth MIDI |
 | **[SLOOP + Big Screen](https://github.com/pfkellogg/sloop-fm1)** | **USB only**: SLOOP has no Bluetooth MIDI |
 | **[Melodee + Big Screen](https://github.com/pfkellogg/melodee)** | **USB only**: Melodee has Bluetooth MIDI, but this build sends its screen over USB only |
 
-On firmware without Bluetooth MIDI, such as ChoralRoot, JIANT, Skiff or SLOOP, this app can't find the FM-1 at all. Use
+On firmware without Bluetooth MIDI, such as ChoralRoot, Skiff or SLOOP, this app can't find the FM-1 at all. JIANT and
+Melodee have Bluetooth MIDI, but their Big Screen builds send the screen over USB only, so this app shows no screen. Use
 [FM-1 Mirror + Spyglass](https://github.com/pfkellogg/fm1-mirror-spyglass-android) (Android) or
 [FM-1 Mirror](https://github.com/pfkellogg/fm1-mirror) (Mac, Windows, Linux) with a USB cable instead.
 
