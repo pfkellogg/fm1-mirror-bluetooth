@@ -48,6 +48,7 @@ This app works **only when the FM-1's firmware has Bluetooth MIDI**.
 | **[Skiff + Big Screen](https://github.com/pfkellogg/skiff)** | **USB only**: Skiff has no Bluetooth MIDI |
 | **[SLOOP + Big Screen](https://github.com/pfkellogg/sloop-fm1)** | **USB only**: SLOOP has no Bluetooth MIDI |
 | **[Melodee + Big Screen](https://github.com/pfkellogg/melodee)** | **USB only**: Melodee has Bluetooth MIDI, but this build sends its screen over USB only |
+| **[LOOM-8](https://github.com/charlesvestal/fm1-loom)** | **Not in this app**: LOOM-8 has Bluetooth MIDI and its own screen mirror, its [Mirror page](https://charlesvestal.github.io/fm1-loom/mirror/) (over USB) |
 
 On firmware without Bluetooth MIDI, such as ChoralRoot, Skiff or SLOOP, this app can't find the FM-1 at all. JIANT and
 Melodee have Bluetooth MIDI, but their Big Screen builds send the screen over USB only, so this app shows no screen. Use
