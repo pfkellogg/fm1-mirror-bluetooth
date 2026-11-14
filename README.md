@@ -1,5 +1,7 @@
 # FM-1 Mirror Bluetooth for Android
 
+☕ If this helps you make music, you can [buy me a coffee on Ko-fi](https://ko-fi.com/aikellogg).
+
 The M-VAVE FM-1's tiny 1.54-inch screen, **big on an Android tablet or phone, over Bluetooth**. No
 cable to the FM-1: it can sit across the room on its battery. Just the screen, live, in colour or a
 high-contrast look, full screen if you like.
