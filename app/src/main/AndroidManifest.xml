@@ -12,7 +12,7 @@
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
 
     <application
-        android:label="FM-1 Mirror Bluetooth"
+        android:label="FM-1 Big Screen Bluetooth"
         android:icon="@mipmap/ic_launcher"
         android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
         <activity

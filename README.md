@@ -1,4 +1,6 @@
-# FM-1 Mirror Bluetooth for Android
+# FM-1 Big Screen Bluetooth for Android
+
+*Formerly called FM-1 Mirror: same app, new name.*
 
 ☕ If this helps you make music, you can [buy me a coffee on Ko-fi](https://ko-fi.com/aikellogg).
 
@@ -6,15 +8,15 @@ The M-VAVE FM-1's tiny 1.54-inch screen, **big on an Android tablet or phone, ov
 cable to the FM-1: it can sit across the room on its battery. Just the screen, live, in colour or a
 high-contrast look, full screen if you like.
 
-![FM-1 Mirror Bluetooth on a tablet, showing the FM-1's Bluetooth page](docs/screenshot.png)
+![FM-1 Big Screen Bluetooth on a tablet, showing the FM-1's Bluetooth page](docs/screenshot.png)
 
 It only ever uses Bluetooth, so **the FM-1's USB stays free**: another app (Synth Spyglass, a DAW,
 a sequencer) can play the FM-1 over USB while this one shows its screen. On Android only one app at
 a time can use the FM-1's USB.
 
 Want to play the FM-1 from a keyboard and see your notes too? That's
-[FM-1 Mirror + Spyglass](https://github.com/pfkellogg/fm1-mirror-spyglass-android), which also works
-over Bluetooth. On a Mac, Windows or Linux computer: [FM-1 Mirror](https://github.com/pfkellogg/fm1-mirror).
+[FM-1 Big Screen + Spyglass](https://github.com/pfkellogg/fm1-mirror-spyglass-android), which also works
+over Bluetooth. On a Mac, Windows or Linux computer: [FM-1 Big Screen](https://github.com/pfkellogg/fm1-mirror).
 
 Questions, or something not working? Write to me: **pfkellogg@gmail.com**
 
@@ -33,8 +35,8 @@ Play, so Android asks first: allow your browser to **install unknown apps**, the
 
 The FM-1 sends its screen with the **FM-1 Big Screen** firmware: M-VAVE's free Official Open firmware
 plus one small addition. Over Bluetooth it needs the build that came with
-[FM-1 Mirror + Spyglass](https://github.com/pfkellogg/fm1-mirror-spyglass-android) 1.3 (or
-[FM-1 Mirror](https://github.com/pfkellogg/fm1-mirror) 1.2) or later. Install it once, over USB, with
+[FM-1 Big Screen + Spyglass](https://github.com/pfkellogg/fm1-mirror-spyglass-android) 1.3 (or
+[FM-1 Big Screen](https://github.com/pfkellogg/fm1-mirror) 1.2) or later. Install it once, over USB, with
 either of those apps: they walk you through it (and offer **Update FM-1** if the FM-1 has an older Big
 Screen). This app shows **"Connected, but no screen"** when the FM-1 needs it.
 
@@ -54,19 +56,19 @@ This app works **only when the FM-1's firmware has Bluetooth MIDI**.
 
 On firmware without Bluetooth MIDI, such as ChoralRoot, Skiff or SLOOP, this app can't find the FM-1 at all. JIANT and
 Melodee have Bluetooth MIDI, but their Big Screen builds send the screen over USB only, so this app shows no screen. Use
-[FM-1 Mirror + Spyglass](https://github.com/pfkellogg/fm1-mirror-spyglass-android) (Android) or
-[FM-1 Mirror](https://github.com/pfkellogg/fm1-mirror) (Mac, Windows, Linux) with a USB cable instead.
+[FM-1 Big Screen + Spyglass](https://github.com/pfkellogg/fm1-mirror-spyglass-android) (Android) or
+[FM-1 Big Screen](https://github.com/pfkellogg/fm1-mirror) (Mac, Windows, Linux) with a USB cable instead.
 
 ## Connecting
 
 1. On the FM-1, hold **HOME** and press **GLO**: its **BLUETOOTH** page. Turn **K1 BLUETOOTH** to
    **ON** and **K3 BLE ROLE** to **DEVICE**. It says **WAITING FOR DEVICE**.
-2. Turn on Bluetooth on the tablet or phone, open **FM-1 Mirror Bluetooth** and tap **Find the
+2. Turn on Bluetooth on the tablet or phone, open **FM-1 Big Screen Bluetooth** and tap **Find the
    FM-1**. **Allow** Nearby devices the first time.
 3. It finds **FM1 Community_BLE** and the screen appears. From then on it connects by itself whenever
    it's open and the FM-1 is on.
 
-The FM-1 takes **one Bluetooth connection at a time**: close FM-1 Mirror + Spyglass, or FM-1 Mirror on
+The FM-1 takes **one Bluetooth connection at a time**: close FM-1 Big Screen + Spyglass, or FM-1 Big Screen on
 a computer, if one of them is connected over Bluetooth.
 
 ## Using it

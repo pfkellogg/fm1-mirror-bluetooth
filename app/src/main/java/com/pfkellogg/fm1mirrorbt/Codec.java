@@ -3,7 +3,7 @@ package com.pfkellogg.fm1mirrorbt;
 import java.io.ByteArrayOutputStream;
 
 /**
- * The FM-1's screen messages (the same as FM-1 Mirror's). The app says hello (F0 7D 'F' 'S' 00 F7,
+ * The FM-1's screen messages (the same as FM-1 Big Screen's). The app says hello (F0 7D 'F' 'S' 00 F7,
  * or 01 to have the whole screen sent again) about once a second; while it does, the FM-1 sends
  * every row it paints as F0 7D 'F' 'S' 01, the row and first column (two 7-bit bytes each), then
  * runs of four bytes: a count, and the RGB565 colour in 7, 7 and 2 bits. The Big Screen firmware

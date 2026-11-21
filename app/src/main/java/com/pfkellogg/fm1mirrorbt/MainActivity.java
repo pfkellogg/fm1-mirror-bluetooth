@@ -40,8 +40,8 @@ import java.io.Closeable;
 import java.io.IOException;
 
 /**
- * FM-1 Mirror Bluetooth: the FM-1's screen, big, over Bluetooth MIDI and nothing else. The FM-1
- * needs the Big Screen firmware that answers over Bluetooth (FM-1 Mirror + Spyglass 1.3 installs
+ * FM-1 Big Screen Bluetooth: the FM-1's screen, big, over Bluetooth MIDI and nothing else. The FM-1
+ * needs the Big Screen firmware that answers over Bluetooth (FM-1 Big Screen + Spyglass 1.3 installs
  * it, over USB, once). Its USB stays free: another app can play the FM-1 over USB meanwhile.
  */
 public class MainActivity extends Activity {
@@ -124,7 +124,7 @@ public class MainActivity extends Activity {
         bar.setOrientation(LinearLayout.HORIZONTAL);
         bar.setGravity(Gravity.CENTER_VERTICAL);
         bar.setPadding(dp(12), dp(8), dp(12), dp(8));
-        TextView title = text("FM-1 Mirror Bluetooth", 22, TEXT);
+        TextView title = text("FM-1 Big Screen Bluetooth", 22, TEXT);
         title.setTypeface(Typeface.DEFAULT_BOLD);
         title.setSingleLine(true);
         title.setEllipsize(TextUtils.TruncateAt.END);
@@ -306,7 +306,7 @@ public class MainActivity extends Activity {
                 heading("Connecting to the FM-1 over Bluetooth…");
                 body("It connects by itself when the FM-1 is on with its Bluetooth on. Not connecting?");
                 turnOn();
-                body("The FM-1 takes one Bluetooth connection at a time: close FM-1 Mirror + Spyglass, or FM-1 Mirror on a computer, if it's connected there.");
+                body("The FM-1 takes one Bluetooth connection at a time: close FM-1 Big Screen + Spyglass, or FM-1 Big Screen on a computer, if it's connected there.");
                 row(button("Find the FM-1 again", v -> find()));
                 break;
             case "connecting":
@@ -314,8 +314,8 @@ public class MainActivity extends Activity {
                 break;
             case "noscreen":
                 heading("Connected, but no screen");
-                body("The FM-1 sends its screen over Bluetooth with the Big Screen firmware from FM-1 Mirror + Spyglass 1.3 (or FM-1 Mirror 1.2) or later. Install it once, over USB, with that app: it offers \"Update FM-1\", or walks you through it if the FM-1 has M-VAVE's own firmware.");
-                row(button("Get FM-1 Mirror + Spyglass", v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(FULL_APP)))));
+                body("The FM-1 sends its screen over Bluetooth with the Big Screen firmware from FM-1 Big Screen + Spyglass 1.3 (or FM-1 Big Screen 1.2) or later. Install it once, over USB, with that app: it offers \"Update FM-1\", or walks you through it if the FM-1 has M-VAVE's own firmware.");
+                row(button("Get FM-1 Big Screen + Spyglass", v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(FULL_APP)))));
                 break;
         }
     }
